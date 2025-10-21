@@ -9,9 +9,13 @@
 
 ### 🇹🇷 Türkçe
 
-Python, PySide6 ve OpenCV kullanılarak oluşturulmuş basit bir masaüstü görüntü işleme uygulaması.
+#### Proje Amacı ve Motivasyon
 
-Bu proje, bir masaüstü uygulamasında temel görüntü işleme filtrelerinin nasıl uygulanacağını ve PySide6 (Qt for Python) kütüphanesinin OpenCV ile nasıl entegre edileceğini göstermek amacıyla geliştirilmiştir.
+Bu proje, görüntü işleme (image processing) konularını yeni öğrenen biri olarak bilgilerimi pekiştirmek amacıyla geliştirdiğim bir alıştırma uygulamasıdır. Görüntü işlemenin temellerini ve bu işlemlerin masaüstü bir uygulamada nasıl sunulabileceğini merak ediyordum.
+
+Temel amacım, **PySide6 (Qt for Python)** kullanarak modern bir masaüstü arayüzü (GUI) oluşturmayı ve bu arayüzü **OpenCV** kütüphanesinin temel görüntü filtreleme yetenekleriyle entegre etmeyi öğrenmektir.
+
+Uygulama, temel filtreleme adımlarını içermektedir ve görüntü işleme alanındaki öğrenme yolculuğumun bir parçasıdır.
 
 #### Özellikler
 
@@ -27,7 +31,7 @@ Bu proje, bir masaüstü uygulamasında temel görüntü işleme filtrelerinin n
 #### Kullanılan Teknolojiler
 
 * **Python 3:** Ana programlama dili.
-* **PySide6 (Qt):** Masaüstü uygulamasının görsel arayüzü (GUI) için kullanıldı.
+* **PySide6 (Qt):** Masaüstü uygulamasının görsel arayüzü için kullanıldı.
 * **OpenCV-Python:** Görüntüleri okuma, yazma ve filtreleme işlemleri için kullanıldı.
 * **NumPy:** Görüntü matrisleri ve gürültü filtresi için gerekli matematiksel hesaplamalarda kullanıldı.
 
@@ -48,9 +52,13 @@ Bu proje, bir masaüstü uygulamasında temel görüntü işleme filtrelerinin n
 
 ### 🇬🇧 English
 
-A simple desktop image processing application built with Python, PySide6, and OpenCV.
+#### Project Purpose and Motivation
 
-This project was developed to demonstrate how to apply basic image processing filters in a desktop application and how to integrate the PySide6 (Qt for Python) library with OpenCV.
+This is a practice application I developed to reinforce my knowledge, as I am new to the field of image processing. I was curious about the fundamentals of image processing and how these operations could be presented in a desktop application.
+
+My primary goal was to learn how to build a modern desktop GUI using **PySide6 (Qt for Python)** and integrate it with the basic image filtering capabilities of the **OpenCV** library.
+
+The application includes fundamental filtering steps and is a part of my learning journey in image processing.
 
 #### Features
 
